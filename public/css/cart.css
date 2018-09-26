@@ -1,0 +1,62 @@
+#cart>thead{
+  background:linear-gradient(to bottom,#f0f0f0,#e0e0e0);
+  box-shadow: 3px 3px 6px #999
+}
+#cart>thead>tr>th:nth-child(1){
+  width: 80.83px;
+}
+#cart>thead>tr>th:nth-child(2){
+  width: 404.16px;
+}
+#cart>thead>tr>th:nth-child(3){
+  width: 161.66px;
+}
+#cart>thead>tr>th:nth-child(4){
+  width: 80.83px;
+}
+#cart>thead>tr>th:nth-child(5){
+  width: 161.66px;
+}
+#cart>thead>tr>th:nth-child(6){
+  width: 80.83px;
+}
+#cart-footer{
+  background:linear-gradient(to bottom,#f0f0f0,#e0e0e0);
+}
+#cart-footer>span>a:last-child{
+  opacity:.6;
+}
+.cart_input{
+  width:23px;
+  height:28px;
+  line-height: 28px;
+  text-align: center;
+  outline: none;
+  border-radius: 3px;
+}
+.cart_button{
+  text-align: center;
+  width:20px;
+  height:23px;
+  line-height: 23px;
+  background-color:#E0E2E5;
+  opacity: .6;
+}
+.cart_del{
+  display:block;
+  text-align: center;
+  height:10px;
+  margin-top:40px;
+}
+.cart_a{
+  background-color:#0F7405;
+}
+.tr_bg{
+  background:linear-gradient(to bottom,#f0f0f0,#AFC408);
+}
+#cart-footer{
+  background:linear-gradient(to bottom,#f0f0f0,#AFC408);
+}
+.total{
+  color:#D8670A!important;
+}

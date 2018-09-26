@@ -1,0 +1,146 @@
+/*定制规格参数按钮的颜色*/
+#details>div:nth-child(5)>div .btn-outline-secondary:hover{
+  color:#0069d9;
+  background-color:#f5f5f5;
+  border-color:#e4393c;
+}
+#details>div:nth-child(5)>div .btn-outline-secondary.active{
+  color:#6c757d;
+  background-color:#f5f5f5;
+  border-color:#e4393c;
+  border-width:2px;
+}
+/*定制数量按钮的颜色*/
+#details>div:nth-child(6) .btn-outline-secondary{
+  width:30px;
+}
+#details>div:nth-child(6) .btn-outline-secondary:hover,
+#details>div:nth-child(6) .btn-outline-secondary:active,
+#details>div:nth-child(6) .btn-outline-secondary:focus{
+  color:#6c757d;
+  background-color:#f5f5f5;
+  border-color:#0069d9;
+  box-shadow: none;
+}
+/*定制立即购买按钮背景色*/
+#details>div:nth-child(7)>a:first-child{
+  background:linear-gradient(to bottom,#f0f0f0,#e0e0e0);
+}
+/*定制放大镜样式*/
+#preview>.card>.card-body>div{
+  width:248px;
+  overflow:hidden;
+}
+#preview>.card>.card-body>div>ul{
+  transition:all .5s linear;
+}
+#preview>.card>.card-body>div>ul>li{
+  width:62px; height:62px;
+}
+#preview>.card>.card-body>div>ul img{
+  width:52px; height:52px;
+}
+#preview>.card>.card-body>div>ul img:hover{
+  border:1px solid #e4393c;
+}
+#preview>div>img{width:354px}
+#mask{
+  width:176px; height:176px;
+  background-color:#ffa;
+  opacity:.5;
+}
+#super-mask{
+  width:352px; height:352px;
+}
+#div-lg{
+  width:400px; height:400px;
+  left:354px;
+  z-index:1000;
+  border: 1px solid rgba(0, 0, 0, 0.125)
+}
+/*商品详情图片轮播部分*/
+#main>div>div.detail_img{
+  position:relative;
+  top:380px;
+  left:0;
+}
+#main>div>div.detail_img>img{
+  position:absolute;
+  display:block;
+  top:50%;
+  left:50%;
+  margin-top:-250px;
+  margin-left:-400px;
+  width:800px;
+  height:500px;
+}
+#main>div>div.detail_img>div#prev{
+  position:absolute;
+  width:30px;
+  height:40px;
+  top:50%;
+  left:200px;
+  margin-top:-20px;
+  background:#fff url(../img/product_detail/arrow-left.png) no-repeat center center;
+}
+#main>div>div.detail_img>div#next{
+  position:absolute;
+  width:30px;
+  height:40px;
+  top:50%;
+  right:200px;
+  margin-top:-20px;
+  background: #fff url(../img/product_detail/arrow-right.png) no-repeat center center;
+}
+#main>div>div.detail_img>div#prev,#main>div>div.detail_img>div#next{
+  background-color: rgba(0,0,0,.7);
+}
+#main>div>div.detail_img>div#next:hover{
+  background-color:#fff;
+}
+#main>div>div.detail_img>div#prev:hover{
+  background-color:#fff;
+}
+#main>div>div.detail_img>ul#tabs{
+  position:absolute;
+  width:120px;
+  height:30px;
+  left:50%;
+  margin-left:-50px;
+  top:210px;
+}
+#main>div>div.detail_img>ul#tabs>li.tab{
+  float:left;
+  width:20px;
+  height:20px;
+  border-radius:50%;
+  background-color:#fff;
+  text-align:center;
+  line-height:20px;
+  background-color:#fff;
+  margin-right:10px;
+}
+.bg{
+  background-color:#646767!important;
+}
+/*订制商品详情部分的样式*/
+#main>nav.navbar{
+  background:linear-gradient(to bottom,#f0f0f0,#e0e0e0);
+  box-shadow:0px 3px 6px #ccc
+}
+#main>nav.navbar .active{
+  margin-top:2px;
+  border-bottom:3px solid #0069d9;
+}
+#params .col-md-2>.btn{
+  background: linear-gradient(to bottom,#f0f0f0,#e0e0e0);
+  box-shadow:0px 3px 4px #ccc
+}
+#params .col-md-10>div>ul>li{
+  width: 237px;
+}
+#footer{
+  position:absolute;
+  top:620px;
+  left:0;
+}

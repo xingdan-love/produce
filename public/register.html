@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head lang="zh">
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="icon" href="">
+    <link rel="stylesheet" href="css/bootstrap.css"/>
+    <link rel="stylesheet" href="css/register.css"/>
+
+</head>
+<body>
+<div class="parent">
+    <div class="container">
+        <div class="panel rt">
+            <form id="form-register">
+                <div class="txt">
+                    <p class="ml-2 pt-3 text-white">新用户注册
+            <span>
+              <a class="float-right mr-2 text-white" href="login.html">直接登录</a>
+            </span>
+                    </p>
+                </div>
+                <div class="form-group">
+                    <label for="uname">用户名：</label>
+                    <input autocomplete required minlength="3" maxlength="12" type="text" placeholder="请输入用户名" autofocus
+                           name="uname" id="uname"/>
+                    <span class=" span1 msg-default ">用户名长度在3到12位之间</span>
+                </div>
+                <div class="form-group">
+                    <label for="upwd">登录密码：</label>
+                    <input required type="password" minlength="6" maxlength="12" placeholder="请输入密码" name="upwd" autofocus
+                           id="upwd"/>
+                    <span class=" span2 msg-default hidden">密码长度在6到12位之间</span>
+                </div>
+                <div class="form-group">
+                    <label for="upwdconfirm">确认密码：</label>
+                    <input required type="password" minlength="6" maxlength="12" placeholder="请确认密码" name="upwdconfirm" autofocus
+                           id="upwdconfirm"/>
+                    <span class=" span3  msg-default hidden">密码长度在6到12位之间</span>
+                </div>
+                <div class="form-group">
+                    <label for="email">邮箱：</label>
+                    <input autocomplete required type="email" placeholder="请输入邮箱地址" name="email" id="email"/>
+                    <span class=" span4 msg-default hidden">请输入合法的邮箱地址</span>
+                </div>
+                <div class="form-group">
+                    <label for="phone">手机号：</label>
+                    <input id="phone" name="phone" placeholder="请输入您的手机号"
+                           required type="text"/>
+                    <span class="span5 msg-default hidden">请输入合法的手机号</span>
+                </div>
+                <div class="form-group">
+                    <label></label>
+                    <input type="button" value="提交注册信息" id="bt-register"/>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+<script src="js/jquery-3.2.1.js"></script>
+<script src="js/register.js"></script>
+</body>
+</html>

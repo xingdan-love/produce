@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/header.css">
+  <link rel="stylesheet" href="css/product_details.css">
+  <link rel="stylesheet" href="css/footer.css">
+</head>
+<body>
+    <header id="header" class="container">
+    </header>
+    <main id="main" class="container mb-5">
+      <nav aria-label="breadcrumb">
+        <ol class="breadcrumb small bg-transparent">
+          <li class="breadcrumb-item"><a class="text-dark font-weight-bold small" href="#">首页</a></li>
+          <li class="breadcrumb-item"><a class="text-dark font-weight-bold small" href="#">农产品</a></li>
+          <li class="breadcrumb-item text-dark font-weight-bold small active" aria-current="page">农产品详情</li>
+        </ol>
+      </nav>
+      <div class="container mb-5">
+        <div class="row pr-3">
+          <div id="preview" class="col pr-0">
+            <div class="card bg-transparent mr-5 position-absolute">
+              <img class="card-img-top" src="img/product/md/57e3b072N661cd00d.jpg" alt="Card image cap">
+              <div id="mask" class="position-absolute d-none"></div>
+              <div id="super-mask" class="position-absolute"></div>
+              <div id="div-lg" class="position-absolute d-none"></div>
+              <div class="card-body p-0 text-center">
+                <img src="img/product_detail/hover-prev.png" class="btn float-left btn-light border-0 p-1 pt-4 pb-4 disabled">
+                <div class="d-inline-block pt-2 mx-0 m-auto">
+                  <ul class="list-unstyled mb-0">
+                    <!--<li class="float-left p-1">
+                      <img src="img/product/sm/57e3b072N661cd00d.jpg" data-md="img/product/md/57e3b072N661cd00d.jpg" data-lg="img/product/lg/57e3b072N661cd00d.jpg">
+                    </li>
+                    <li class="float-left p-1">
+                      <img src="img/product/sm/57e1ff09Nf610fea3.jpg" data-md="img/product/md/57e1ff09Nf610fea3.jpg" data-lg="img/product/lg/57e1ff09Nf610fea3.jpg">
+                    </li>
+                    <li class="float-left p-1">
+                      <img src="img/product/sm/57e1ff17N286390a9.jpg" data-md="img/product/md/57e1ff17N286390a9.jpg" data-lg="img/product/lg/57e1ff17N286390a9.jpg">
+                    </li>
+                    <li class="float-left p-1">
+                      <img src="img/product/sm/57e1ff2fN8a36d0fe.jpg" data-md="img/product/md/57e1ff2fN8a36d0fe.jpg" data-lg="img/product/lg/57e1ff2fN8a36d0fe.jpg">
+                    </li>
+                    <li class="float-left p-1">
+                      <img src="img/product/sm/57e52dffNa4d8ce2c.jpg" data-md="img/product/md/57e52dffNa4d8ce2c.jpg" data-lg="img/product/lg/57e52dffNa4d8ce2c.jpg">
+                    </li>
+                    <li class="float-left p-1">
+                      <img src="img/product/sm/57e52e03N4ec367dd.jpg" data-md="img/product/md/57e52e03N4ec367dd.jpg" data-lg="img/product/lg/57e52e03N4ec367dd.jpg">
+                    </li>
+                    <li class="float-left p-1">
+                      <img src="img/product/sm/57e52e06N116974f7.jpg" data-md="img/product/md/57e52e06N116974f7.jpg" data-lg="img/product/lg/57e52e06N116974f7.jpg">
+                    </li>-->
+                  </ul>
+                </div>
+                <img src="img/product_detail/hover-next.png" class="btn float-right btn-light border-0 p-1 pt-4 pb-4">
+              </div>
+            </div>
+          </div>
+          <div id="details" class="col pl-0">
+            <!--<h6 class="font-weight-bold">
+              Apple MacBook Air 13.3英寸笔记本 银色(Core i5 处理器/8GB内存/128GB SSD闪存 MMGF2CH/A)
+            </h6>
+            <h6>
+              <a class="small text-dark font-weight-bold" href="javascript:;">5月焕新季，领券买新机！神券满6000减600！一体成型金属机身，纤薄轻巧，长达12小时续航</a>
+            </h6>
+            <div class="alert alert-secondary small" role="alert">
+              <div>
+                <span>学员售价：</span>
+                <h2 class="d-inline text-primary font-weight-bold">¥6988.00</h2>
+              </div>
+              <div>
+                <span>服务承诺：</span>
+                <span>*退货补运费 *30天无忧退货 *48小时快速退款 *72小时发货</span>
+              </div>
+            </div>-->
+            <!-- 客服 -->
+            <p class="mb-1">
+              <span class="small">客服：</span>
+              <span class="small">联系客服</span>
+              <img class="mb-3" src="img/product_detail/kefuf.gif">
+            </p>
+            <!-- 规格 -->
+            <div>
+              <div class="float-left small">产地：</div>
+              <div class="float-left w-75">
+                <!--<a class="btn btn-sm btn-outline-secondary active" href="product_details.html?lid=1" class="active">双核i5/8GB内存/128GB闪存</a>
+                <a class="btn btn-sm btn-outline-secondary" href="product_details.html?lid=2" class="">双核i5/8GB内存/256GB闪存</a>
+                <a class="btn btn-sm btn-outline-secondary" href="product_details.html?lid=3" class="">定制款：双核i7/8G内存/128G闪存</a>
+                <a class="btn btn-sm btn-outline-secondary" href="product_details.html?lid=4" class="">定制款：双核i7/8G内存/256G闪存</a>-->
+              </div>
+              <div class="clearfix"></div>
+            </div>
+            <!-- 数量 -->
+            <div class="mt-2">
+              <div class="float-left small">数量：</div>
+              <div class="input-group mb-3 w-25">
+                <div class="input-group-prepend">
+                  <button class="btn btn-outline-secondary p-1" type="button">-</button>
+                </div>
+                <input type="text" value="1" class="form-control" placeholder="" aria-label="" aria-describedby="basic-addon1">
+                <div class="input-group-append">
+                  <button class="btn btn-outline-secondary p-1" type="button">+</button>
+                </div>
+              </div>
+              <div class="clearfix"></div>
+            </div>
+            <!-- 购买部分 -->
+            <div>
+              <a class="btn pt-3 pb-2 pl-5 pr-5" href="javascript:;"><h5>立即购买</h5></a>
+              <a class="btn btn-primary pt-3" href="javascript:;">
+                <h5><img src="img/product_detail/product_detail_img7.png" alt="">加入购物车</h5>
+              </a>
+              <a class="btn btn-primary pt-1 pb-1" href="javascript:;" class="collection">
+                <img src="img/product_detail/product_detail_img6.png">
+                <br>
+                收藏
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="detail_img">
+          <img class="ig" src="img/product_detail/pro8.jpg" alt=""/>
+          <img class="ig" src="img/product_detail/pro12.jpg" alt=""/>
+          <img class="ig" src="img/product_detail/pro13.jpg" alt=""/>
+          <img class="ig" src="img/product_detail/pro14.jpg" alt=""/>
+          <div id="prev"></div>
+          <div id="next"></div>
+          <ul id="tabs">
+            <li class="tab">1</li>
+            <li class="tab">2</li>
+            <li class="tab">3</li>
+            <li class="tab">4</li>
+          </ul>
+        </div>
+      </div>
+    </main>
+    <footer id="footer">
+    </footer>
+  <script src="js/jquery-3.2.1.js"></script>
+  <script src="js/bootstrap.js"></script>
+  <script src="js/ajax.js"></script>
+  <script src="js/header.js"></script>
+  <script src="js/footer.js"></script>
+  <script src="js/details.js"></script>
+</body>
+</html>

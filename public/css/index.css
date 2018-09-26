@@ -1,0 +1,49 @@
+/* 定制轮播图以及主导航的样式 */
+#main>div>div:nth-child(2)>div>div>div>img{
+  height:342px;
+}
+/*调整字体样式*/
+h3,h6{
+  color:#F56712;
+}
+/*导航菜单栏部分*/
+#main>div:first-child{
+  position:relative;
+}
+#main>div>div.mask_right{
+  position:absolute;
+  top:8px;
+  left:286px;
+  width:600px;
+  height:334px;
+  background-color:rgba(247,248,249,0.7);
+  z-index:100;
+  overflow:hidden;
+  display:none;
+  background-color:rgba(46,46,46,0.9);
+
+}
+#main>div>div.mask_right>ul{
+  float:left;
+  margin-top:80px;
+  margin-left:70px;
+  margin-right:50px;
+}
+#main>div>div.mask_right>ul:first-child{
+  margin-left:100px;
+}
+#main>div>div.mask_right>ul>li{
+  padding:10px 10px;
+  color:#F7710A;
+}
+/*楼层滚动部分*/
+.scroll_floor{
+  position:fixed;
+  top:200px;
+  left:120px;
+  width:50px!important;
+  height:160px!important;
+}
+.bg{
+  background-color:green;
+}

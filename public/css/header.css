@@ -1,0 +1,73 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box !important;
+}
+#header{
+  width:100% !important;
+  margin:0 auto !important;
+}
+ul{
+  list-style: none;
+}
+#header>div>div:nth-child(2)>ul>li{
+  float:left;
+  padding:0 12px !important;
+}
+#header>div:first-child{
+  background-color:#F6F6F6 !important;
+}
+#header>div>div:first-child>span:first-child{
+  color:#FF973C !important;
+}
+a{
+  text-decoration: none !important;
+}
+#header>div>div:nth-child(2)>ul>li:last-child>a{
+  color: #FF973C !important;
+
+}
+#header>.navbar>.form-inline{
+  heigtht:100px;
+  position:relative;
+}
+#header>.navbar>.form-inline>p{
+  position:absolute;
+  top:40px;
+  color:#A7A7AD;
+}
+/*定制搜索框的大小*/
+#header>.navbar>.form-inline>.input-group>input{
+  width:400px;
+  height:40px;
+  outline: none !important;
+  box-shadow: none !important;
+  border:1px solid #009237 !important;
+}
+#header>.navbar>.form-inline>div>div>a{
+  box-shadow: none !important;
+  color:white;
+  width:100px;
+  height:40px;
+  text-align: 40px;
+  line-height: 40px;
+  background-color:#009237;
+}
+/*定制主导航当前导航项的字体颜色*/
+#header>.nav .nav-link.active,
+#header>.nav .nav-link:hover{
+  background:none;
+  font-weight:bold;
+}
+.register_a{
+  font-size:16px;
+}
+.login_a{
+  font-size:16px;
+}
+#header>ul.nav-pills{
+  background-color:#009237;
+}
+#header>ul.nav-pills>li.nav-item>a{
+  color:white !important;
+}

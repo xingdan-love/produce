@@ -1,0 +1,39 @@
+/* 用户信息样式 */
+.main{
+    width:960px;
+    margin:0 auto;
+    border:1px solid rgb(44,149,15);
+}
+a{
+    text-decoration: none;
+    color:#000;
+}
+.touxiang{
+    width:150px;
+    height:150px;
+    border-radius:10px;
+    margin: 0 auto;
+}
+.touxiang{
+    width:100px;
+    height:100px;
+    background: url(../img/avatar/touxiang%20.jpg) no-repeat 40% center;
+}
+.aside{
+    border-right:1px solid rgb(44,149,15);
+}
+.box{
+    display:none;
+}
+.active1{
+    color:#e4393c;
+    font-weight:bold;
+}
+.active2{
+    display:block;
+}
+.save_btn{
+    width:100px;
+    height:30px;
+    background-color:rgb(82,242,162)!important;
+}

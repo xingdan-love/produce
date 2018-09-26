@@ -1,0 +1,11 @@
+/*整个页面的背景色*/
+body{
+  background-color:white;
+  /*min-width:1200px;*/
+}
+/*一级容器定宽居中*/
+body>.container{
+  width:1200px;
+  min-width:1200px;
+  margin:0 auto;
+}
